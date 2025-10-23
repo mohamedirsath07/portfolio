@@ -53,25 +53,7 @@
 * 🚀 **One-Click Deployment**
   Easily host your site with Vercel and GitHub
 
----
-
-## 👌 Quick Start
-
-### Prerequisites
-
-* [Node.js](https://nodejs.org/)
-* [Git](https://git-scm.com/)
-
-### Clone and Run
-
-```bash
-git clone https://github.com/yourusername/react-tailwind-portfolio.git
-cd react-tailwind-portfolio
-npm install
-npm run dev
-```
-
-Link : irsath.vercel.app
+Portfolio URL : [Irsath's Portfolio](irsath.vercel.app)
 
 
 ## 🔗 Useful Links
