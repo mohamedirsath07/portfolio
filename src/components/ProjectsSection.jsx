@@ -17,18 +17,17 @@ const projects = [
       "Transform your style with intelligent outfit recommendations. Upload photos, select colors, and let AI create your perfect look.",
     image: "/projects/project2.png",
     tags: ["TypeScript", "React", "Tailwind CSS","FastAPI","RestAPI","ML"],
-    demoUrl: "#",
+    demoUrl: "https://clazzyai.vercel.app/",
     githubUrl: "https://github.com/mohamedirsath07/Clazzy",
   },
   {
     id: 3,
-    title: "Student Guidance Platform",
+    title: "ExpireGuard",
     description:
-      "The Student Guidance Platform is a mobile and web-based application designed to assist students. The platform addresses the critical gap in awareness regarding the importance of graduation and the various career opportunities available through different degree programs.",
-    image: "/projects/project3.png",
-    tags: ["React", "TypeScript", "Python","MongoDB"],
-    demoUrl: "#",
-    githubUrl: "https://github.com/mohamedirsath07/sih",
+"ExpireGuard is a full-stack web application that helps users track product expiration dates and receive timely notifications to prevent food waste and expired product usage.",
+    tags: ["React", "TailwindCSS","JavaScript", "FastAPI","Firebase","Pytesseract"],
+    demoUrl: "https://expire-guard.vercel.app/",
+    githubUrl: "https://github.com/mohamedirsath07/ExpireGuard",
   },
 ];
 
