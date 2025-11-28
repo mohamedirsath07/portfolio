@@ -25,6 +25,7 @@ const projects = [
     title: "ExpireGuard",
     description:
 "ExpireGuard is a full-stack web application that helps users track product expiration dates and receive timely notifications to prevent food waste and expired product usage.",
+    image: "/projects/project3.png",
     tags: ["React", "TailwindCSS","JavaScript", "FastAPI","Firebase","Pytesseract"],
     demoUrl: "https://expire-guard.vercel.app/",
     githubUrl: "https://github.com/mohamedirsath07/ExpireGuard",
