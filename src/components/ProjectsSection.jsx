@@ -6,7 +6,7 @@ const projects = [
     title: "Clazzy",
     description:
       "Transform your style with intelligent outfit recommendations. Upload photos, select colors, and let AI create your perfect look.",
-    image: "/projects/project2.png",
+    image: "/projects/project1.png",
     tags: ["TypeScript", "React", "Tailwind CSS","FastAPI","RestAPI","ML"],
     demoUrl: "https://clazzyai.vercel.app/",
     githubUrl: "https://github.com/mohamedirsath07/Clazzy",
@@ -17,7 +17,7 @@ const projects = [
     title: "Level Up",
     description:
       "A full-stack MERN fitness tracking application with 3D body visualization using React Three Fiber. Track workouts, monitor progress, and visualize your fitness journey.",
-    image: "/projects/project5.png",
+    image: "/projects/project2.png",
     tags: ["React", "Node.js", "MongoDB", "Three.js"],
     demoUrl: "https://levelup123.vercel.app/",
     githubUrl: "https://github.com/mohamedirsath07/FitnessTracker",
@@ -28,7 +28,7 @@ const projects = [
     title: "AutoKlean",
     description:
       "A full-stack web application for autonomous data cleaning, profiling, and ML-ready dataset preparation. Automates tedious data preprocessing tasks with intelligent algorithms.",
-    image: "/projects/project4.png",
+    image: "/projects/project3.png",
     tags: ["React", "FastAPI", "Node.js", "MongoDB"],
     demoUrl: "https://autoklean.vercel.app/",
     githubUrl: "https://github.com/mohamedirsath07/autonomous_cleaning_dataset",
@@ -39,7 +39,7 @@ const projects = [
     title: "ExpireGuard",
     description:
 "ExpireGuard is a full-stack web application that helps users track product expiration dates and receive timely notifications to prevent food waste and expired product usage.",
-    image: "/projects/project3.png",
+    image: "/projects/project4.png",
     tags: ["React", "TailwindCSS","JavaScript", "FastAPI","Firebase","Pytesseract"],
     demoUrl: "https://expire-guard.vercel.app/",
     githubUrl: "https://github.com/mohamedirsath07/ExpireGuard",
