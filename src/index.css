@@ -1,5 +1,26 @@
 @import "tailwindcss";
 
+/* Lenis smooth scroll */
+html.lenis, html.lenis body {
+  height: auto;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+.lenis.lenis-scrolling iframe {
+  pointer-events: none;
+}
+
 @theme {
   --color-border: hsl(var(--border));
   --color-background: hsl(var(--background));
@@ -92,7 +113,19 @@
   }
 
   html {
-    @apply scroll-smooth;
+    scroll-behavior: smooth;
+  }
+
+  /* Smooth scrolling with better performance */
+  * {
+    scroll-behavior: smooth;
+  }
+
+  /* GPU acceleration for smoother animations */
+  .star, .meteor {
+    will-change: transform, opacity;
+    transform: translateZ(0);
+    backface-visibility: hidden;
   }
 
   body {

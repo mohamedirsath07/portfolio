@@ -21,8 +21,10 @@ export const StarBackground = () => {
   }, []);
 
   const generateStars = () => {
-    const numberOfStars = Math.floor(
-      (window.innerWidth * window.innerHeight) / 10000
+    // Reduced star count for better performance
+    const numberOfStars = Math.min(
+      Math.floor((window.innerWidth * window.innerHeight) / 15000),
+      100
     );
 
     const newStars = [];
@@ -60,7 +62,10 @@ export const StarBackground = () => {
   };
 
   return (
-    <div className="fixed inset-0 overflow-hidden pointer-events-none z-0">
+    <div
+      className="fixed inset-0 overflow-hidden pointer-events-none z-0"
+      style={{ contain: 'layout paint', willChange: 'auto' }}
+    >
       {stars.map((star) => (
         <div
           key={star.id}
